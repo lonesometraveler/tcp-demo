@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package messages;
+
+message ThermostatState {
+    string name = 1;
+    double air_temp = 2;
+    double rad_temp = 3;
+}
